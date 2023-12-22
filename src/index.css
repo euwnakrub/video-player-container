@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .wrapper {
+    @apply 
+    bg-black 
+      w-full 
+      h-screen 
+      md:h-[75vh] 
+      max-h-[56.25vw] 
+      flex justify-center
+  }
+  .video-player {
+    @apply 
+      h-full 
+      
+      aspect-video 
+      bg-[url('https://picsum.photos/1920/1080')] bg-cover
+      flex justify-center items-center
+  }
+}
